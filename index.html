@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AvaTrades — Trade smarter with live markets, copy trading & bots</title>
+<meta name="description" content="AvaTrades is a trading platform with live market prices, copy trading, automated trading bots, admin-managed goals and more. Get started in minutes.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='64' height='64'%3E%3Crect width='24' height='24' rx='6' fill='%231A1AFF'/%3E%3Cpolyline points='18,15 14.5,15 12,20 8,6 5.5,15 2,15' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="wrap nav-row">
+    <a href="#" class="brand"><span class="brand-icon">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+    </span>Ava<span>Trades</span></a>
+
+    <ul class="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#benefits">Why AvaTrades</a></li>
+      <li><a href="#markets">Live markets</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+        <svg class="moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+      </button>
+      <a href="#" class="btn btn-outline" data-app-link>Login</a>
+      <a href="#" class="btn btn-primary" data-app-link>Get started free</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#features">Features</a>
+  <a href="#benefits">Why AvaTrades</a>
+  <a href="#markets">Live markets</a>
+  <a href="#faq">FAQ</a>
+  <div class="nav-actions">
+    <a href="#" class="btn btn-outline" data-app-link>Login</a>
+    <a href="#" class="btn btn-primary" data-app-link>Get started free</a>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">LIVE CRYPTO MARKETS · 24/7</span>
+      <h1>Trade smarter with <span class="accent">live markets</span>, copy trading &amp; bots</h1>
+      <p class="lead">AvaTrades brings together real-time crypto pricing, expert copy trading, automated strategy bots and admin-guided goals — all in one clean, secure dashboard.</p>
+      <div class="hero-ctas">
+        <a href="#" class="btn btn-primary btn-lg" data-app-link>
+          Get started free
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <a href="#markets" class="btn btn-outline btn-lg">See live markets</a>
+      </div>
+      <div class="hero-trust">
+        <div><strong>6</strong><span>Bot strategies</span></div>
+        <div><strong>5+</strong><span>Trade durations, incl. custom</span></div>
+        <div><strong>24/7</strong><span>Live market data</span></div>
+        <div><strong>100%</strong><span>Admin-managed accounts</span></div>
+      </div>
+    </div>
+
+    <!-- Product preview built from the app's own UI components, not a screenshot -->
+    <div class="preview-card">
+      <div class="preview-chrome"><i></i><i></i><i></i></div>
+      <div class="preview-balance">
+        <div class="preview-balance-top">
+          <span>TOTAL BALANCE</span>
+          <span class="preview-eye">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+          </span>
+        </div>
+        <strong>$48,250.75</strong>
+        <small>▲ +7.28% today</small>
+      </div>
+      <div class="preview-stats">
+        <div class="preview-stat"><span>Portfolio value</span><strong>$35,720.40</strong></div>
+        <div class="preview-stat"><span>Available cash</span><strong>$12,530.35</strong></div>
+      </div>
+      <div class="preview-target">
+        <span class="preview-target-icon">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+        </span>
+        <div class="preview-target-body">
+          <div class="preview-target-top"><span>Target: $75,000</span><span>64% reached</span></div>
+          <div class="preview-track"><div class="preview-fill"></div></div>
+        </div>
+      </div>
+      <div class="preview-row">
+        <span class="preview-coin"><i>₿</i> BTC/USD</span>
+        <span class="preview-up">+2.35%</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST STRIP ============ -->
+<div class="trust-strip">
+  <div class="wrap trust-item" style="justify-content:space-between;display:flex;flex-wrap:wrap">
+    <span class="trust-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg> Admin-reviewed deposits &amp; withdrawals</span>
+    <span class="trust-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg> Live CoinGecko market data</span>
+    <span class="trust-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Curated expert copy traders</span>
+    <span class="trust-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg> Multi-language &amp; multi-currency</span>
+  </div>
+</div>
+
+<!-- ============ FEATURES ============ -->
+<section id="features">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">FEATURES</span>
+      <h2>Everything a modern trader needs</h2>
+      <p>One dashboard for live trading, automation, and guided account management — built for both newcomers and experienced traders.</p>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature-card">
+        <span class="feature-icon blue"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+        <h3>Live market trading</h3>
+        <p>Buy and sell dozens of cryptocurrencies at live market prices, with spot and leveraged positions, take-profit/stop-loss, and flexible trade durations from 1 minute up to a fully custom timer.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon purple"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+        <h3>Copy trading</h3>
+        <p>Browse a curated roster of trader profiles with real track records — risk level, win rate, returns and rating — and subscribe to mirror their approach.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon green"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg></span>
+        <h3>Trading bots</h3>
+        <p>Subscribe to automated strategies — DCA, Grid, Momentum, Scalping, Rebalancing and Yield — then configure your own bot instance per asset.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon orange"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
+        <h3>Admin-set targets</h3>
+        <p>Your account manager can set a personal goal and progress bar that shows right above your balance — a clear, motivating milestone to work toward.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon red"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></span>
+        <h3>Price alerts &amp; notifications</h3>
+        <p>Set alerts for any asset and get notified the moment it hits your target price, plus real-time updates on trades, deposits, and account activity.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon blue"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg></span>
+        <h3>Secure deposits &amp; withdrawals</h3>
+        <p>Fund your account through multiple methods with admin-reviewed confirmations, and request withdrawals with full visibility into their status.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon purple"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5C11 3 12 8 12 8"/><path d="M16.5 8a2.5 2.5 0 0 0 0-5C13 3 12 8 12 8"/></svg></span>
+        <h3>Flexible plans</h3>
+        <p>Start free on the Starter plan and upgrade anytime to unlock premium features as your trading grows.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon green"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></span>
+        <h3>Admin-managed security</h3>
+        <p>Email verification, account status controls, and hands-on admin oversight keep every account safe and properly supported.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon orange"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg></span>
+        <h3>Live chat support</h3>
+        <p>Get help right from the dashboard with built-in live chat, in addition to admin-sent notifications and broadcast announcements.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BENEFITS ============ -->
+<section id="benefits" class="benefits">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">WHY TRADERS CHOOSE AVATRADES</span>
+      <h2>Built to help you trade with confidence</h2>
+      <p>Whether you're placing your first trade or managing an active portfolio, AvaTrades gives you the tools and support to do it well.</p>
+    </div>
+    <div class="benefit-grid">
+      <div class="benefit">
+        <span class="benefit-num">01</span>
+        <h3>Trade with real market context</h3>
+        <p>Every price you see and trade against comes from live market data, so your experience reflects what's actually happening in the market.</p>
+      </div>
+      <div class="benefit">
+        <span class="benefit-num">02</span>
+        <h3>Learn from proven traders</h3>
+        <p>Copy trading lets you follow strategies from traders with transparent track records instead of guessing on your own.</p>
+      </div>
+      <div class="benefit">
+        <span class="benefit-num">03</span>
+        <h3>Automate without coding</h3>
+        <p>Trading bots handle DCA, grid, momentum and more around the clock, so your strategy keeps working even when you're away.</p>
+      </div>
+      <div class="benefit">
+        <span class="benefit-num">04</span>
+        <h3>Stay guided, not alone</h3>
+        <p>Admin-set targets, reviewed deposits/withdrawals, and live support mean you always have a clear picture and someone to ask.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LIVE MARKETS (TRADINGVIEW) ============ -->
+<section id="markets">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">LIVE MARKETS</span>
+      <h2>Real charts, right on this page</h2>
+      <p>Powered by TradingView — the same market data and charting technology professional traders rely on.</p>
+    </div>
+
+    <div class="markets-shell">
+      <div class="ticker-wrap">
+        <!-- TradingView Ticker Tape Widget -->
+        <div class="tradingview-widget-container">
+          <div class="tradingview-widget-container__widget"></div>
+          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+          {
+            "symbols": [
+              {"proName": "BINANCE:BTCUSDT", "title": "Bitcoin"},
+              {"proName": "BINANCE:ETHUSDT", "title": "Ethereum"},
+              {"proName": "BINANCE:SOLUSDT", "title": "Solana"},
+              {"proName": "BINANCE:BNBUSDT", "title": "BNB"},
+              {"proName": "BINANCE:XRPUSDT", "title": "XRP"},
+              {"proName": "BINANCE:ADAUSDT", "title": "Cardano"},
+              {"proName": "BINANCE:DOGEUSDT", "title": "Dogecoin"},
+              {"proName": "BINANCE:AVAXUSDT", "title": "Avalanche"}
+            ],
+            "showSymbolLogo": true,
+            "isTransparent": false,
+            "displayMode": "adaptive",
+            "colorTheme": "dark",
+            "locale": "en"
+          }
+          </script>
+        </div>
+      </div>
+
+      <div class="markets-cols">
+        <div class="market-panel">
+          <!-- TradingView Advanced Chart Widget -->
+          <div class="tradingview-widget-container" style="height:100%;width:100%">
+            <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+            {
+              "autosize": true,
+              "symbol": "BINANCE:BTCUSDT",
+              "interval": "60",
+              "timezone": "Etc/UTC",
+              "theme": "dark",
+              "style": "1",
+              "locale": "en",
+              "backgroundColor": "rgba(19, 26, 43, 1)",
+              "gridColor": "rgba(255, 255, 255, 0.06)",
+              "hide_top_toolbar": false,
+              "allow_symbol_change": true,
+              "support_host": "https://www.tradingview.com"
+            }
+            </script>
+          </div>
+        </div>
+        <div class="market-panel">
+          <!-- TradingView Market Overview Widget -->
+          <div class="tradingview-widget-container" style="height:100%;width:100%">
+            <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+            {
+              "colorTheme": "dark",
+              "dateRange": "12M",
+              "showChart": true,
+              "locale": "en",
+              "largeChartUrl": "",
+              "isTransparent": true,
+              "showSymbolLogo": true,
+              "showFloatingTooltip": false,
+              "width": "100%",
+              "height": "100%",
+              "plotLineColorGrowing": "rgba(91, 107, 255, 1)",
+              "plotLineColorFalling": "rgba(91, 107, 255, 1)",
+              "gridLineColor": "rgba(255, 255, 255, 0.06)",
+              "tabs": [
+                {
+                  "title": "Crypto",
+                  "symbols": [
+                    {"s": "BINANCE:BTCUSDT"},
+                    {"s": "BINANCE:ETHUSDT"},
+                    {"s": "BINANCE:SOLUSDT"},
+                    {"s": "BINANCE:BNBUSDT"},
+                    {"s": "BINANCE:XRPUSDT"},
+                    {"s": "BINANCE:ADAUSDT"},
+                    {"s": "BINANCE:DOGEUSDT"}
+                  ]
+                }
+              ]
+            }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="markets-note">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+      Charts load live from TradingView once this page is online — they need an internet connection to render.
+    </p>
+  </div>
+</section>
+
+<!-- ============ CTA BANNER ============ -->
+<section>
+  <div class="wrap">
+    <div class="cta-banner">
+      <h2>Ready to start trading smarter?</h2>
+      <p>Create your free account and get access to live markets, copy trading and bots in minutes.</p>
+      <div class="cta-ctas">
+        <a href="#" class="btn btn-primary btn-lg" data-app-link>Get started free</a>
+        <a href="#" class="btn btn-outline btn-lg" data-app-link>Login to your account</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">FAQ</span>
+      <h2>Common questions</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item open">
+        <div class="faq-q">What is AvaTrades?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg></div>
+        <div class="faq-a"><p>AvaTrades is a trading platform where you can trade crypto at live market prices, follow expert traders through Copy Trading, automate strategies with Trading Bots, and track personal goals set by your account manager — all from one dashboard.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">How does copy trading work?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg></div>
+        <div class="faq-a"><p>Browse a roster of trader profiles showing their risk level, win rate, returns and rating. Subscribe to a trader whose approach fits you, and your account follows their strategy for the subscription period.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Can I use trading bots without coding?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg></div>
+        <div class="faq-a"><p>Yes. Subscribe to any of the six supported strategies — DCA, Grid, Momentum, Scalping, Rebalancing or Yield — then create your own bot instance for the asset you want, no coding required.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">What's the Target feature?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg></div>
+        <div class="faq-a"><p>Your account manager can set a personal goal amount and progress indicator that appears as a banner above your balance — a simple way to see what you're working toward.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">How do deposits and withdrawals work?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg></div>
+        <div class="faq-a"><p>Submit a deposit through one of the available funding methods and it's confirmed by our team. Withdrawal requests are reviewed the same way, with status visible from your dashboard the whole time.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Is my account secure?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg></div>
+        <div class="faq-a"><p>Accounts require email verification, and admins have oversight tools to manage account status and keep activity safe and supported.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <p class="footer-disclaimer">Cryptocurrency trading involves significant risk and may not be suitable for all investors. Prices shown are sourced from live market data feeds and can change rapidly. Past performance of any trader or strategy is not indicative of future results.</p>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="brand"><span class="brand-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </span>Ava<span>Trades</span></a>
+        <p>Live markets, copy trading, automated bots and admin-guided goals — one platform for modern trading.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Product</h4>
+          <a href="#features">Features</a>
+          <a href="#markets">Live markets</a>
+          <a href="#benefits">Why AvaTrades</a>
+        </div>
+        <div class="footer-col">
+          <h4>Account</h4>
+          <a href="#" data-app-link>Get started</a>
+          <a href="#" data-app-link>Login</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> AvaTrades. All rights reserved.</span>
+      <span>Built with live TradingView market data.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a49f8baddf07592b',t:'MTc5MTkwNzEwNA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
