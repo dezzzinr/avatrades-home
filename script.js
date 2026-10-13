@@ -4,7 +4,7 @@
 // 1) SET YOUR APP URL BELOW. Every button with [data-app-link] (Login,
 //    Get started, footer links, etc.) will point to this address.
 // ============================================================================
-const APP_URL = "https://app.avatrades.com"; // <-- change this to your real AvaTrades app URL
+const APP_URL = "https://ava-trades.vercel.app/"; // <-- change this to your real AvaTrades app URL
 
 document.querySelectorAll("[data-app-link]").forEach((el) => {
   el.setAttribute("href", APP_URL);
